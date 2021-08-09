@@ -1,0 +1,5 @@
+#ビルド時に生成されるファイルは管理する必要がないので無視
+Debug/
+Release/
+.vs/
+*.vcxproj.user
