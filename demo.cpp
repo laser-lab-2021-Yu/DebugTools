@@ -1,8 +1,10 @@
 
-#include"DebugTools.h"
+#include<DebugTools.h>
 
 int main()
 {
+	dbg::DebugMemoryLeak();
+
 	int a = 1;
 	int b = 10;
 
