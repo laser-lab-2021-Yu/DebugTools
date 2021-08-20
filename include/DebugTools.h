@@ -71,9 +71,4 @@ namespace DebugTools
 }
 namespace dbg = DebugTools;
 
-//ƒ‰ƒCƒuƒ‰ƒŠ‚Ö‚ÌƒŠƒ“ƒN
-#ifdef _DEBUG
-	#pragma comment(lib, "DebugToolsLibrary_Debug.lib")
-#else
-	#pragma comment(lib, "DebugToolsLibrary_Release.lib")
-#endif
+#pragma comment(lib, "DebugToolsLibrary.lib")
